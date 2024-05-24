@@ -1,0 +1,272 @@
+body {
+    background-image: url(lions-2702828_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.background-overlay {
+    background-color: transparent;
+    background-image: linear-gradient(180deg, var(--e-global-color-astglobalcolor4) 0%, #F2295B00 50%);
+    opacity: 1;
+}
+
+.btn-hvr a:hover {
+    color: #E88958 !important;
+}
+
+.home h2 {
+    font-family: "Smooch", cursive;
+    color: #E88958;
+}
+
+.home {
+    font-family: "Oswald", sans-serif;
+    color: white;
+}
+
+.home p {
+    font-family: "Smooch", cursive;
+
+}
+
+.button_bg {
+    background-color: #E88958 !important;
+}
+
+.flex {
+    background-color: #121d22;
+    color: white;
+}
+
+.icons {
+    font-family: "Oswald", sans-serif;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    transition: 0.2s ease;
+    background-color: #1E292D;
+}
+
+.icons:hover {
+    background-color: #E88958;
+}
+
+.loin {
+    background-image: url(lion-5069703_1280.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+
+}
+
+.left-side h2 {
+    font-family: "Smooch", cursive;
+    color: #E88958 !important;
+}
+
+.left-side h3 {
+    font-family: "Smooch", cursive;
+    color: #E88958 !important;
+}
+
+.journey {
+    background-color: #131D22;
+}
+
+.journey h2 {
+    font-family: "Smooch", cursive;
+    color: #E88958 !important;
+}
+
+.monkey {
+    font-family: "Oswald", sans-serif;
+}
+
+.monkey h5 {
+    color: #E88958 !important;
+
+}
+
+.monkey:hover {
+    filter: brightness(0.7);
+}
+
+.wildlife {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(19, 29, 32, 0.6671918767507004) 6%, rgba(19, 29, 32, 1) 18%, rgba(0, 0, 0, 1) 100%, rgba(19, 29, 34, 0.6195728291316527) 100%);
+}
+
+
+.img-flex {
+    background-color: #121d22;
+}
+
+.img-flex h3 {
+    color: #E88958;
+    font-family: "Smooch", cursive;
+}
+
+.bwindi {
+    background-image: url(lion-5873637_1280.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+}
+
+.content h2 {
+    position: relative;
+    top: 100px;
+    left: -110px;
+}
+
+.content h4 {
+    position: relative;
+    top: 60px;
+    right: 10px;
+    font-family: "Oswald", sans-serif;
+    color: #E88958;
+}
+
+.arrow {
+    color: #E88958;
+    position: relative;
+    top: 27px;
+    left: 80px;
+}
+
+.kibale {
+    background-image: url(monkey-2790452_1280.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+}
+
+.safari {
+    background-color: #121d22;
+    font-family: "Oswald", sans-serif;
+}
+
+@media (min-width:412px) {
+    .safari {
+        margin-top: 30px;
+    }
+
+    .gainda {
+        width: 400px;
+
+    }
+
+    .godha {
+        position: relative;
+        left: 40%;
+        width: 156px;
+        height: 211px;
+    }
+
+    .special {
+        text-align: center;
+        font-size: 80px;
+    }
+}
+
+@media (max-width:1024px) {
+    .safari {
+        margin: -30px;
+    }
+
+    .gainda {
+        width: 100%;
+    }
+
+    .godha {
+        position: relative;
+        top: 100px;
+    }
+
+    .special {
+        margin: 50px;
+        position: relative;
+        top: 50px;
+    }
+}
+
+@media (min-width:1000px) {
+    .godha {
+        position: relative;
+        left: 22%;
+        top: 17%;
+        margin: 0px;
+    }
+
+    .gainda {
+        width: 100%;
+    }
+
+    .safari h4 {
+        width: 600px;
+    }
+
+    .special h1 {
+        font-size: 80px;
+    }
+}
+
+.cards {
+    background: #121d22;
+}
+
+.cards h3 {
+    color: #E88958;
+    font-family: "Smooch", cursive;
+}
+
+.cards h1 {
+    font-family: "Oswald", sans-serif;
+}
+
+.cards-body {
+    background-color: #121d22;
+    color: white !important;
+}
+
+.clouds h3 {
+    color: #E88958;
+    font-family: "Smooch", cursive;
+}
+
+.clouds {
+    background-image: url(clouds.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+}
+
+@media (max-width:2274px) {
+    .text {
+        padding: 150px;
+        text-align: center;
+    }
+
+    .text h1 {
+        position: relative;
+        bottom: 200px;
+        font-family: "Oswald", sans-serif;
+    }
+
+    .text h3 {
+        position: relative;
+        top: 100px;
+    }
+
+    .phn {
+        position: relative;
+        bottom: 320px;
+        left: 630px;
+    }
+}
+
+.end {
+    background-color: #121d22;
+    font-family: "Oswald", sans-serif;
+}
